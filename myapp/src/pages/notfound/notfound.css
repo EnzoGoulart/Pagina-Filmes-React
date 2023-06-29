@@ -1,0 +1,18 @@
+#numErro{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+#txtErro{
+    padding-top: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#apErro{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    font-size: 22px;
+}

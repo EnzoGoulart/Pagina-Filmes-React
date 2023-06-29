@@ -1,0 +1,68 @@
+.filmeInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#filmeP{
+    font-size: 22px;
+    padding: 30px;
+}
+#sF{
+    padding-bottom: 10px;
+}
+#imgF{
+    width: 60%;
+}
+#sinF{
+    padding: 10px;
+    font-size: 18px;
+}
+#overF{
+    width: 80%;
+    text-align: left;
+}
+#imgLoad{
+    height: 80px;
+    position: relative;
+    left: 47%;
+    margin-top: 40px;
+    animation: loadAnim 2s ease infinite;
+    
+  }
+  @keyframes loadAnim {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+#divBF{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 35px auto;
+}
+#b1F,#b2F{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#b1F{
+    margin-right: 4px;
+}
+#b2F{
+    margin-left: 4px;
+}
+#b1F:hover, #b2F:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.404);
+    transition: .2s;
+}
+#ancF{
+    color: white;
+}

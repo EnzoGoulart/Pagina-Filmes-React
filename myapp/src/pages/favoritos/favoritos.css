@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 220px;
+    margin: 20px auto;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.603);
+}
+#itemFav{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+#divFav{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.774);
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+#titleFav{
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#lbFav{
+    margin-right: 40px;
+}
+#linkFav{
+    padding-right: 30px;
+    font-size: 18px;
+    color: black;
+}
+button{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+#linkFav:hover{
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.24);
+    transition: .5s;
+}
+#notFav{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+}
+@media screen and (width<650px) {
+    #itemFav{
+        width: 90%;
+    }
+    #titleFav{
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    button{
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    #linkFav{
+        padding-right: 15px;
+        font-size: 16px;
+    }
+    #lbFav{
+        margin-right: 10px;
+    }
+}
+@media screen and (width<374px){
+    #titleFav{
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    #itemFav{
+        width: 100%;
+    }
+    #titleFav{
+        padding-left: 6px;
+    }
+    #linkFav{
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}
